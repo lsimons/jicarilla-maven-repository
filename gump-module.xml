@@ -1,4 +1,4 @@
-<module name="jicarilla-sandbox">
+<module name="jicarilla-maven-repository">
     <url  href="http://jicarilla.org/"/>
     <description>
         IoC Component glue (non-gump-built dependencies).
