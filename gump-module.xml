@@ -1,0 +1,34 @@
+<module name="jicarilla-sandbox">
+    <url  href="http://jicarilla.org/"/>
+    <description>
+        IoC Component glue (non-gump-built dependencies).
+    </description>
+
+    <cvs repository="sourceforge" host-prefix="cvs.jicarilla"
+            module="jicarilla-maven-repository" dir="jicarilla"/>
+
+    <project name="jicarilla-picocontainer">
+        <package>org.picocontainer</package>
+        <jar name="picocontainer/jars/picocontainer-1.0-SNAPSHOT.jar"/>
+    </project>
+    <project name="jicarilla-picocontainer-tck">
+        <package>org.picocontainer</package>
+        <jar name="picocontainer/jars/picocontainer-1.0-SNAPSHOT-tck.jar"/>
+    </project>
+    <project name="jicarilla-springframework">
+        <package>org.springframework</package>
+        <jar name="spring/jars/spring-SNAPSHOT.jar"/>
+    </project>
+    <project name="jicarilla-springframework-tck">
+        <package>org.springframework</package>
+        <jar name="spring/jars/spring-tck-SNAPSHOT.jar"/>
+    </project>
+    <project name="jicarilla-xstream">
+        <package>com.thoughtworks.xstream</package>
+        <jar name="xstream/jars/xstream-0.1.jar"/>
+    </project>
+    <project name="jicarilla-easymock">
+        <package>org.easymock</package>
+        <jar name="easymock/jars/easymock-1.0.1b.jar"/>
+    </project>
+</module>
