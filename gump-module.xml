@@ -15,11 +15,27 @@
         <package>org.picocontainer</package>
         <jar name="picocontainer/jars/picocontainer-1.0-SNAPSHOT-tck.jar"/>
     </project>
+    <project name="jicarilla-pico">
+        <package>org.picocontainer</package>
+        <jar name="picocontainer/jars/picocontainer-1.0-SNAPSHOT.jar"/>
+    </project>
+    <project name="jicarilla-pico-tck">
+        <package>org.picocontainer</package>
+        <jar name="picocontainer/jars/picocontainer-1.0-SNAPSHOT-tck.jar"/>
+    </project>
     <project name="jicarilla-springframework">
         <package>org.springframework</package>
         <jar name="spring/jars/spring-SNAPSHOT.jar"/>
     </project>
     <project name="jicarilla-springframework-tck">
+        <package>org.springframework</package>
+        <jar name="spring/jars/spring-tck-SNAPSHOT.jar"/>
+    </project>
+    <project name="jicarilla-spring">
+        <package>org.springframework</package>
+        <jar name="spring/jars/spring-SNAPSHOT.jar"/>
+    </project>
+    <project name="jicarilla-spring-tck">
         <package>org.springframework</package>
         <jar name="spring/jars/spring-tck-SNAPSHOT.jar"/>
     </project>
