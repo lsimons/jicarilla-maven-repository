@@ -47,4 +47,12 @@
         <package>org.easymock</package>
         <jar name="easymock/jars/easymock-1.0.1b.jar"/>
     </project>
+    <project name="jicarilla-dna-api">
+        <package>org.jcontainer.dna</package>
+        <jar name="dna/jars/dna-api-1.0.jar"/>
+    </project>
+    <project name="jicarilla-dna-impl">
+        <package>org.jcontainer.dna</package>
+        <jar name="dna/jars/dna-impl-1.0.jar"/>
+    </project>
 </module>
