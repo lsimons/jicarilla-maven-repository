@@ -49,10 +49,14 @@
     </project>
     <project name="jicarilla-dna-api">
         <package>org.jcontainer.dna</package>
-        <jar name="dna/jars/dna-api-1.0.jar"/>
+        <jar name="dna/jars/dna-api-1.1-rc2.jar"/>
     </project>
     <project name="jicarilla-dna-impl">
         <package>org.jcontainer.dna</package>
-        <jar name="dna/jars/dna-impl-1.0.jar"/>
+        <jar name="dna/jars/dna-impl-1.1-rc2.jar"/>
+    </project>
+    <project name="jicarilla-dna-tools">
+        <package>org.jcontainer.dna</package>
+        <jar name="dna/jars/dna-tools-1.1-rc2.jar"/>
     </project>
 </module>
